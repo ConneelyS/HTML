@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+#profileImage {
+  border: 2px solid;
+  border-radius: 50%;
+  max-width: 33%;
+  max-height:200px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: cover;
+}
+
+body {
+  background: #999;
+  color: #111;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body h1 {
+  display: block;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body h3 {
+  display: block;
+  background-color: #333;
+  color: white;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+
+
+
+/* Navigation bar code */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

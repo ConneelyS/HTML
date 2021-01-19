@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+        
+        <meta charset="utf-8">
+        <meta name="description" content="This Portfolio displays my past projects and current goals">
+        <meta name="author" content="Sam Conneely">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="">
+        
+
+    </head>
+
+    <body>
+
+        <header>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+              </ul>
+        </header>
+
+        <section id = "profileSection">
+            <img id = "profileImage" src="profile.png" alt="Placeholder">
+
+            <h1>Sam Conneely</h1>
+            <h3>Profile</h3>
+            <p> 
+                Experienced IT Service Desk Analyst currently working in a hospital environment. Graduated from the National College of Ireland with a BSc in Computing. 
+                From designing and creating basic websites using HTML, CSS and Javascript I moved onto using frameworks to build more advanced, interactive web applications. 
+                From there my love of software development has grown. Specialising in IoT (Internet of Things), for my final year project I designed and built a Smart Irrigation 
+                System to allow the automated watering of soil samples. The automated system was built using Python, Java, a Raspberry Pi and a collection of sensors.
+                Currently enrolled in a 12 week online Python course with a view getting my MTA: Introduction to Programming Using Python certificate by the end of 2020.
+                With a passion for software development and skills in Java, Python and Javascript I am also looking to grow my programming abilities and improve my React, MongoDB and C++ skill set.
+            </p>
+        </section>
+
+        <section id = "projectSection">
+            <h1>Projects</h1>
+            <section id = "projectOne">
+                <h3>Smart Irrigation System</h3>
+                    <p>
+                        The project is about a Smart Irrigation System
+                    </p>
+            </section>
+            
+            <section id = "projectTwo">
+                <h3>Project Two</h3>
+                    <p> 
+                        Telescope project using MQTT to encode and send images
+                    </p>
+            </section>
+
+            <section id = "projectThree">
+                <h3>Project Three</h3>
+                    <p> 
+                        Other project information
+                    </p>
+            </section>
+
+        </section>
+
+        <section id = "contactForm">
+            <h1>Contact Me</h1>
+
+            <form action="mailto:sam.conneelywork@gmail.com" method="post" enctype="text/plain"> Name:
+                <input type="text" id="name" placeholder="Enter your Name"> <br /> Email:
+                <input type="text" id="mail" placeholder="Enter your Email"> <br /> Message:
+                <input type="text" id="message" placeholder="Enter your message"> <br />
+                <input type="submit" value="Send">
+            </form>
+            
+        </section>
+        
+        <footer>&copy; Copyright 2021</footer>
+    </body>
+</html>
