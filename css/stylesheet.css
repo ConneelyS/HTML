@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+/* 
+      Colour samples for web layout --
+      White             #FFF
+      Grey Light        #EEEEF3
+      Grey              #E3E3E3
+      Grey Dark         #DCDCDC
+      Grey Darker       #C7C7CD
+      Grey Placeholder  #757575
+      Grey Darkest      #333
+      Grey Hovered      #111
+
+*/
+
 #profileImage {
   border: 2px solid;
   border-radius: 50%;
@@ -11,7 +24,7 @@
 }
 
 body {
-  background: #999;
+  background: #c7c7cd;
   color: #111;
   font-family: 'Roboto Condensed', sans-serif;
 }
